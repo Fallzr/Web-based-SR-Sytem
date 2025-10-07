@@ -94,7 +94,7 @@ unset($_SESSION['studentError']);
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center"
-    style="background-image: url('img/BCCI/BCCI_BACKGROUND.jpg');">
+    style="background-image: url('img/BCCI/BCCI_LANDING1.jpg');">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>WBSRS<br>Butuan City Colleges</h1>
       <a href="#" class="btn-get-started">Read More</a>
@@ -117,7 +117,7 @@ unset($_SESSION['studentError']);
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+              Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit...
             </p>
             <a href="#" class="learn-more-btn">Read More</a>
           </div>
@@ -222,20 +222,20 @@ unset($_SESSION['studentError']);
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>
 
-  <!-- Admin Login Modal -->
+  <!-- Admin Login Modal md5 password method for security -->
   <div class="modal fade" id="adminLoginModal" tabindex="-1" role="dialog" aria-labelledby="adminLoginLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header bg-primary text-white">
-          <h5 class="modal-title" id="adminLoginLabel">Administrator Login</h5>
+          <h5 class="modal-title" id="adminLoginLabel">Registrar Admin</h5>
           <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
           <?php if(!empty($adminError)) echo '<div class="alert alert-danger">'.$adminError.'</div>'; ?>
           <form action="adminLogin.php" method="POST">
             <div class="form-group">
-              <label>Admin ID</label>
+              <label>Registrar ID</label>
               <input type="text" name="staffId" class="form-control" required>
             </div>
             <div class="form-group">
@@ -263,7 +263,7 @@ unset($_SESSION['studentError']);
           <?php if(!empty($studentError)) echo '<div class="alert alert-danger">'.$studentError.'</div>'; ?>
           <form action="studentLogin.php" method="POST">
             <div class="form-group">
-              <label>Matric No</label>
+              <label>Student ID No.</label>
               <input type="text" name="matricNo" class="form-control" required>
             </div>
             <div class="form-group">

@@ -116,25 +116,7 @@ $row = mysqli_fetch_array($query);
                         </div>
                     </div><!-- /# column -->
 
-                   <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-flat-color-3">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $coutAllStudentCourses;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Courses</p>
-                                </div><!-- /.card-left -->
 
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg pe-7s-notebook"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
 
                     <div class="col-sm-6 col-lg-3">
                         <div class="card text-white bg-success">
@@ -164,7 +146,7 @@ $row = mysqli_fetch_array($query);
                                         <span class="currency float-left mr-1"></span>
                                         <span class="count"><?php echo $countFaculty;?></span>
                                     </h3>
-                                    <p class="text-light mt-1 m-0">Faculty</p>
+                                    <p class="text-light mt-1 m-0">Instructor</p>
                                 </div><!-- /.card-left -->
 
                                 <div class="card-right float-right text-right">
@@ -176,27 +158,7 @@ $row = mysqli_fetch_array($query);
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-flat-color-2">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $countDepartment;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Department</p>
-                                </div><!-- /.card-left -->
-
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg pe-7s-network"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
+                
                 <!-- /Widgets -->
                 <!--  Traffic  -->
                 <div class="row">

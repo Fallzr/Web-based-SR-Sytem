@@ -120,7 +120,7 @@
                                         <span class="currency float-left mr-1"></span>
                                         <span class="count"><?php echo $countFaculty;?></span>
                                     </h3>
-                                    <p class="text-light mt-1 m-0">Faculty</p><!-- Log on to codeastro.com for more projects! -->
+                                    <p class="text-light mt-1 m-0">Instructor</p><!-- Log on to codeastro.com for more projects! -->
                                 </div><!-- /.card-left -->
 
                                 <div class="card-right float-right text-right">
@@ -193,46 +193,7 @@
                         </div>
                     </div>
 
-             <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-secondary">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $countAllComputed;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Comp. Result</p><!-- Log on to codeastro.com for more projects! -->
-                                </div><!-- /.card-left -->
-
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg pe-7s-news-paper"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                 <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-danger">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $countAllSemester;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Semester</p><!-- Log on to codeastro.com for more projects! -->
-                                </div><!-- /.card-left -->
-
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg pe-7s-culture"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
+                 
              <div class="col-sm-6 col-lg-3">
                         <div class="card text-white bg-info">
                             <div class="card-body">
@@ -253,6 +214,25 @@
                         </div>
                     </div>
 
+                <div class="col-sm-6 col-lg-3">
+                        <div class="card text-white bg-danger">
+                            <div class="card-body">
+                                <div class="card-left pt-1 float-left">
+                                    <h3 class="mb-0 fw-r">
+                                        <span class="currency float-left mr-1"></span>
+                                        <span class="count"><?php echo $countAllSemester;?></span>
+                                    </h3>
+                                    <p class="text-light mt-1 m-0">Semester</p><!-- Log on to codeastro.com for more projects! -->
+                                </div><!-- /.card-left -->
+
+                                <div class="card-right float-right text-right">
+                                    <i class="icon fade-5 icon-lg pe-7s-culture"></i>
+                                </div><!-- /.card-right -->
+
+                            </div>
+
+                        </div>
+                    </div>
 
 
                     <div class="col-sm-6 col-lg-3">
@@ -263,7 +243,7 @@
                                         <span class="currency float-left mr-1"></span>
                                         <span class="count"><?php echo $countAllDist;?></span>
                                     </h3>
-                                    <p class="text-light mt-1 m-0">Distinction No.</p><!-- Log on to codeastro.com for more projects! -->
+                                    <p class="text-light mt-1 m-0">Trimester</p><!-- Log on to codeastro.com for more projects! -->
                                 </div><!-- /.card-left -->
 
                                 <div class="card-right float-right text-right">
@@ -315,47 +295,6 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-flat-color-2">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $countAlljp;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Passed No.</p><!-- Log on to codeastro.com for more projects! -->
-                                </div><!-- /.card-left -->
-
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg pe-7s-check"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="card text-white bg-danger">
-                            <div class="card-body">
-                                <div class="card-left pt-1 float-left">
-                                    <h3 class="mb-0 fw-r">
-                                        <span class="currency float-left mr-1"></span>
-                                        <span class="count"><?php echo $countAllf;?></span>
-                                    </h3>
-                                    <p class="text-light mt-1 m-0">Failed No.</p><!-- Log on to codeastro.com for more projects! -->
-                                </div><!-- /.card-left -->
-
-                                <div class="card-right float-right text-right">
-                                    <i class="icon fade-5 icon-lg fa fa-times"></i>
-                                </div><!-- /.card-right -->
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
 
                 </div>
                 <!-- /Widgets -->
@@ -364,7 +303,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h3 align="center"><marquee direction="left">Current Session: <?php 
+                                <h3 align="center"><marquee direction="left">School Year: <?php 
                                 $result = mysqli_query($con, 'SELECT (sessionName) AS sessname FROM tblsession WHERE isActive = 1'); 
                                 $row = mysqli_fetch_assoc($result); 
                                 $sum = $row['sessname'];

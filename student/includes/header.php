@@ -1,8 +1,8 @@
  <header id="header" class="header">
             <div class="top-left">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="./">Student Grading System</a>
-                    <a class="navbar-brand hidden" href="./">Student Grading System</a>
+                    <a class="navbar-brand" href="./">Student Records System</a>
+                    <a class="navbar-brand hidden" href="./">Student Records System</a>
                     <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
@@ -17,8 +17,6 @@
                                 <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
                             </form>
                         </div>
-
-                        
 
                     <div class="user-area dropdown float-right">
                         <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true"
