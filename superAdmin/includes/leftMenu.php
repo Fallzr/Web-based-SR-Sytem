@@ -32,6 +32,16 @@ $staffFullName = $row['firstName'].' '.$row['lastName'];
                     </ul>
                 </li>
 
+             <li class="menu-title">Tuition Fee</li>
+                <li class="menu-item-has-children dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false"><i class="menu-icon fa fa-money"></i> View Tuitions</a>
+                    <ul class="sub-menu children dropdown-menu">
+                        <li><i class="fa fa-graduation-cap"></i> <a href="#">Student Tuitions</a></li>
+                    </ul>
+                </li>
+
+
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"><i class="menu-icon fa fa-bars"></i>Departments</a>
