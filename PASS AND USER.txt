@@ -1,0 +1,13 @@
+Admin para di malimtan
+----------------------------------------
+user: admin 
+pass: admin123
+----------------------------------------
+student
+user: student01
+pass: soto
+
+user: student03
+pass: salazar
+-----------------------------------------
+Credits to UI/UX Integration key copy (Fixed credits to ahkman - admin user integration by us)

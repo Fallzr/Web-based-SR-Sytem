@@ -1,0 +1,118 @@
+/* ================= Modern Professional Dashboard ================= */
+
+/* General Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #f5f6fa !important;
+    color: #333 !important;
+}
+
+/* Right Panel */
+#right-panel {
+    background-color: #f5f6fa !important;
+    min-height: 100vh !important;
+}
+
+/* Header */
+#header {
+    background-color: #bb151a !important;
+    color: #fff !important;
+    padding: 15px 30px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+#header .logo {
+    display: flex !important;
+    align-items: center !important;
+}
+
+#header .logo img {
+    height: 45px !important;
+    width: auto !important;
+    margin-right: 10px !important;
+    border-radius: 8px !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+    transition: all 0.3s ease-in-out !important;
+    cursor: default !important;
+}
+
+.card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card .card-body {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 25px !important;
+}
+
+/* Card left */
+.card-left h3 {
+    font-size: 1.7rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+
+.card-left p {
+    font-size: 1rem !important;
+    margin-top: 5px !important;
+    color: rgba(255,255,255,0.85) !important;
+}
+
+/* Card right icon */
+.card-right i {
+    font-size: 2.5rem !important;
+    opacity: 0.8 !important;
+}
+
+/* Background colors overrides (modern palette) */
+.bg-flat-color-1 { background: linear-gradient(135deg, #6c5ce7, #a29bfe) !important; }
+.bg-flat-color-2 { background: linear-gradient(135deg, #00b894, #55efc4) !important; }
+.bg-flat-color-3 { background: linear-gradient(135deg, #fd79a8, #e84393) !important; }
+.bg-flat-color-4 { background: linear-gradient(135deg, #fab1a0, #e17055) !important; }
+.bg-flat-color-5 { background: linear-gradient(135deg, #00cec9, #00b894) !important; }
+.bg-flat-color-6 { background: linear-gradient(135deg, #fdcb6e, #e17055) !important; }
+
+.bg-primary { background: linear-gradient(135deg, #0984e3, #74b9ff) !important; }
+.bg-secondary { background: linear-gradient(135deg, #636e72, #b2bec3) !important; }
+.bg-success { background: linear-gradient(135deg, #00b894, #55efc4) !important; }
+.bg-info { background: linear-gradient(135deg, #00cec9, #81ecec) !important; }
+.bg-warning { background: linear-gradient(135deg, #fdcb6e, #e17055) !important; }
+.bg-danger { background: linear-gradient(135deg, #d63031, #ff7675) !important; }
+
+/* Marquee / Current Session */
+.card-body marquee {
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    color: #2d3436 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .card-right {
+        margin-top: 10px !important;
+    }
+}
+
+/* Left Panel Menu hover effect */
+.left-panel a,
+.left-panel .menu-title {
+    transition: color 0.3s ease-in-out !important;
+}
+
+.left-panel a:hover {
+    color: #bb151a !important;
+}

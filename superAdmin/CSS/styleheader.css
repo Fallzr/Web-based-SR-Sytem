@@ -1,0 +1,79 @@
+.header {
+    width: 100% !important;
+    background-color: #bb151a !important; /* primary color background */
+    color: #ffffff !important; /* white text */
+    padding: 0.8rem 1.5rem !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 999 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+    transition: all 0.3s ease !important;
+}
+
+.header .navbar-brand {
+    color: #ffffff !important;
+}
+.header .navbar-brand:hover {
+    color: #f5f5f5 !important;
+}
+
+.header #menuToggle i {
+    color: #ffffff !important;
+}
+.header #menuToggle i:hover {
+    color: #f5f5f5 !important;
+}
+
+.header .form-inline input.form-control {
+    background-color: rgba(255,255,255,0.15) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+}
+.header .form-inline input.form-control::placeholder {
+    color: rgba(255,255,255,0.7) !important;
+}
+
+.user-area .user-avatar {
+    border: 2px solid #ffffff !important;
+}
+
+.user-area .user-menu {
+    background-color: #bb151a !important;
+}
+
+.user-area .user-menu a.nav-link {
+    color: #ffffff !important;
+}
+
+.user-area .user-menu a.nav-link:hover {
+    background-color: rgba(255,255,255,0.15) !important;
+}
+
+.header {
+    background-color: #bb151a !important; /* primary color */
+    color: #ffffff !important; /* white text */
+}
+
+.header .navbar-header {
+    background-color: #bb151a !important; /* force navbar background */
+    color: #ffffff !important;
+}
+
+.header .navbar-brand {
+    color: #ffffff !important;
+}
+
+.header #menuToggle i {
+    color: #ffffff !important;
+}
+
+.user-area .user-menu {
+    background-color: #bb151a !important;
+}
+.user-area .user-menu a.nav-link {
+    color: #ffffff !important;
+}

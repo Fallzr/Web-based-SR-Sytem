@@ -1,0 +1,76 @@
+/* ==================== Left Panel Complete Fix ==================== */
+
+/* Base panel */
+.left-panel {
+    background-color: #ffffff; /* keep your current background */
+    color: #272727 !important; /* default text color */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar brand/logo */
+.left-panel .navbar-header .navbar-brand {
+    color: #272727 !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Logo hover */
+.left-panel .navbar-header .navbar-brand:hover {
+    color: #bb151a !important;
+}
+
+/* Menu titles (e.g., REGS:) */
+.left-panel .menu-title {
+    color: #272727 !important;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+/* Menu links and submenus */
+.left-panel a,
+.left-panel li.active > a,
+.left-panel .sub-menu.children.dropdown-menu li a {
+    color: #272727 !important;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for menu links and submenu */
+.left-panel a:hover,
+.left-panel li.active > a:hover,
+.left-panel .sub-menu.children.dropdown-menu li a:hover {
+    color: #bb151a !important; /* primary color on hover */
+    background-color: transparent !important;
+}
+
+/* Icons inside menu links */
+.left-panel li a i,
+.left-panel .menu-title i {
+    color: #272727 !important; /* default icon color */
+    transition: color 0.3s ease;
+}
+
+/* Icon hover matches text */
+.left-panel a:hover i,
+.left-panel li.active > a i {
+    color: #bb151a !important;
+}
+
+/* Dropdown arrows */
+.left-panel .menu-item-has-children > a:after {
+    color: #272727 !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Open dropdown arrow color and rotation */
+.left-panel .menu-item-has-children.dropdown.open > a:after {
+    color: #bb151a !important;
+    transform: rotate(180deg);
+}
+
+/* Submenu background (slightly lighter for contrast) */
+.left-panel .sub-menu.children.dropdown-menu {
+    background-color: rgba(255,255,255,0.05) !important;
+}

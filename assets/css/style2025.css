@@ -1,0 +1,103 @@
+/* ===================== Style2025 Admin Modal ===================== */
+#adminLoginModal .modal-content {
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+#adminLoginModal .modal-header {
+    background-color: #bb151a !important;
+    color: #fff !important;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+#adminLoginModal .modal-header .close {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+#adminLoginModal .modal-body {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+#adminLoginModal .form-control {
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+}
+
+#adminLoginModal .form-control:focus {
+    border-color: #bb151a;
+    box-shadow: 0 0 8px rgba(95, 99, 242, 0.2);
+}
+
+#adminLoginModal .btn-primary {
+    border-radius: 10px;
+    background-color: #bb151a !important;
+    border-color: #bb151a !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+#adminLoginModal .btn-primary:hover {
+    background-color: #bb151a !important;
+    border-color: #bb151a !important;
+}
+
+/* ===================== Style2025 Student Modal ===================== */
+#studentLoginModal .modal-content {
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+#studentLoginModal .modal-header {
+    background-color: #feba00 !important;
+    color: #fff !important;
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+#studentLoginModal .modal-header .close {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+#studentLoginModal .modal-body {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+#studentLoginModal .form-control {
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+}
+
+#studentLoginModal .form-control:focus {
+    border-color: #feba00;
+    box-shadow: 0 0 8px rgba(40, 183, 100, 0.2);
+}
+
+#studentLoginModal .btn-success {
+    border-radius: 10px;
+    background-color: #feba00 !important;
+    border-color: #feba00 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+#studentLoginModal .btn-success:hover {
+    background-color: #feba00 !important;
+    border-color: #feba00 !important;
+}
