@@ -13,14 +13,14 @@ $levelId = $row['levelId'];
                 <li class="menu-title">Student:&nbsp;<?php echo $fullName;?></li>
 
                 <li class="<?php if($page=='dashboard'){ echo 'active'; }?>">
-                    <a href="#"><i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    <a href="index.php"><i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                 </li>
                 
                 <li class="menu-item-has-children dropdown <?php if($page=='courses'){ echo 'active'; }?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"> <i class="menu-icon fa fa-book"></i>Courses</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="fa fa-eye"></i><a href="#">View Courses</a></li>
+                        <li><i class="fa fa-eye"></i><a href="studentCourses.php">View Courses</a></li>
                     </ul>
                 </li>
 
@@ -28,9 +28,9 @@ $levelId = $row['levelId'];
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"> <i class="menu-icon fa fa-file"></i>Result</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="fa fa-eye"></i> <a href="#">View Result</a></li>
-                        <li><i class="fa fa-eye"></i> <a href="#">Final Result</a></li>
-                        <li><i class="fa fa-eye"></i> <a href="#">Grading Criteria</a></li>
+                        <li><i class="fa fa-eye"></i> <a href="studentResult.php"> View Result</a></li>
+                        <li><i class="fa fa-eye"></i> <a href="viewFinalResult.php"> Final Result</a></li>
+                        <li><i class="fa fa-eye"></i> <a href="gradingCriteria.php"> Grading Criteria</a></li>
                     </ul>
                 </li>
                                
@@ -38,7 +38,7 @@ $levelId = $row['levelId'];
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false"> <i class="menu-icon fa fa-user"></i>Profile</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-user-circle"></i><a href="#">Update Profile</a></li>
+                        <li><i class="menu-icon fa fa-user-circle"></i><a href="updateProfile.php">Update Profile</a></li>
                         <!-- <li><i class="menu-icon fa fa-sign-in"></i><a href="#">Change Password</a></li> -->
                     </ul>
                 </li>

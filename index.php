@@ -96,7 +96,7 @@ unset($_SESSION['studentError']);
   <section id="hero" class="d-flex justify-content-center align-items-center"
     style="background-image: url('img/BCCI/BCCI_LANDING1.jpg');">
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-      <h1>WBSRS<br>Butuan City Colleges</h1>
+      <h1>Student Record System<br>Butuan City Colleges</h1>
       <a href="#" class="btn-get-started">Read More</a>
     </div>
   </section>
@@ -117,7 +117,7 @@ unset($_SESSION['studentError']);
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit...
+              With a four-fold function - instruction, research, extension, and production - BCCI offers responsive and alternative programs supportive of the development of global excellence and lifelong learning. 
             </p>
             <a href="#" class="learn-more-btn">Read More</a>
           </div>
@@ -163,7 +163,7 @@ unset($_SESSION['studentError']);
             <p>
               Butuan City,<br>Philippines<br><br>
               <strong>Phone:</strong> 0912343438<br>
-              <strong>Email:</strong> BCCI@gmail.com<br>
+              <strong>Email:</strong>Butuancitycollegesbc@gmail.com<br>
             </p>
           </div>
 
